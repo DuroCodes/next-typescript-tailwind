@@ -6,7 +6,7 @@ import { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider attribute="class" forcedTheme="dark">
+    <ThemeProvider attribute="class">
       <>
         <svg height="0px" width="0px">
           <defs>
